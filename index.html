@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sahil Singh</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="text/css" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<div class = "top-container">
+		<img class="top-img1" src="images/cloud.png">
+	</div>
+	<div class="new-container" style="position:relative;">
+		<img class="top-img2" src="images/mountain.png">
+		<div class="centered" style="position: absolute; top:10%; left: 50%; transform: translate(-50%, -50%);">
+			<h1 class="indh1">Hi, I'm Sahil Singh</h1>
+			<a class="button1" href="#middle-container">Lets Explore...</a>
+	    </div>
+	</div>
+	<div id ="middle-container">
+		<h2 class = "head2" >About Me</h2>
+		<table class="tab1">
+			<tr>
+				<td>
+					<img class="img3" src="images/Sahil.jpeg">
+				</td>
+				<td>
+					<p class="p1">I'm front-end web developer & content creator based in ON, Canada.<br> I am passionate about crafting cutting-edge, pixel-perfect, solid and scalable frontend products with great user experience.</p>
+						<!-- Trigger/Open The Modal -->
+						<button id="myBtn" >Click Here</button>
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <span class="close">&times;</span>
+						    <p class="p4">Click to.....</p><br><br>
+						    	<a class="btn1" href="https://drive.google.com/file/d/1XQeCXN8ZDur6hpr24tzKRDmkqaBxgO4x/view?usp=sharing">VIEW RESUME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a class="btn1" href="mailto:akahilbatth18@email.com">CONTACT ME</a>
+						  </div>
+
+						</div>
+
+						<script>
+						// Get the modal
+						var modal = document.getElementById("myModal");
+
+						// Get the button that opens the modal
+						var btn = document.getElementById("myBtn");
+
+						// Get the <span> element that closes the modal
+						var span = document.getElementsByClassName("close")[0];
+
+						// When the user clicks the button, open the modal 
+						btn.onclick = function() {
+						  modal.style.display = "block";
+						}
+
+						// When the user clicks on <span> (x), close the modal
+						span.onclick = function() {
+						  modal.style.display = "none";
+						}
+
+						// When the user clicks anywhere outside of the modal, close it
+						window.onclick = function(event) {
+						  if (event.target == modal) {
+						    modal.style.display = "none";
+						  }
+						}
+						</script>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class = "bottom-container">
+		<h2 class="head3"> Projects</h2>
+		<table class="tab2">
+			<tr>
+				<td>
+					<h3 style="padding-right: 200px; ">Car Booking using JS</h3>
+					<p class="p2">Doom Car project was built using HTML, CSS and JS. It asks the user to select the city, Time-in and Time-off plus dates. The user gets an email in their account with all the details after booking and paying for the selected car.</p>
+				</td>
+				<td>
+					<img class="img4" src="images/p1.jpg">
+				</td>
+			</tr>
+		</table><br><br><br>
+		<a class="fcc-btn" href="Projects.html">Explore all Projects!</a><br><br><br><br><br>
+
+	</div>
+	<div class="last-container">
+		  <a class="fab fa-linkedin" style="color: white; text-decoration:none; font-size: 50px;" href="https://www.linkedin.com/in/sahil-singh-hilma"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  <a class="fab fa-github"  style="color: white;text-decoration:none; font-size: 50px" href="https://github.com/SahilS62"></a>
+		  <hr>
+		  <p>©2023 - Sahil Singh</p>
+	</div>
+
+</body>
+</html>
