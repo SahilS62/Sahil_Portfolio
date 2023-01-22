@@ -12,6 +12,7 @@ body{
 }
 
 .indh1{
+  font-size: 562.5%;
 	margin-top: 0;
 	font-family: 'Sacramento', cursive;
 }
@@ -269,11 +270,11 @@ hr{
 }
 
 .p2{
-	 color:black;font-family: serif; padding-right: 200px; 
+	 color:black;font-family: serif; padding-right: 200px; line-height: 1.5;
 }
 
 .img3{
-	width: 300px; padding-right: 100px;
+	width: 300px; padding-right: 100px; 
 }
 
 .img4{
@@ -284,7 +285,10 @@ hr{
 }
 
 .p4{
-	color: white;
+	color: white; margin-top: 2%;
+}
+.p4o{
+  color: white;
 }
 
 #myBtn{
@@ -317,10 +321,10 @@ hr{
 .modal-content {
   background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
   margin: auto;
-  padding: 20px;
+  padding: 25px;
   border: 1px solid #888;
   width: 30%;
-  height:15%;
+  height:35%;
 }
 
 /* The Close Button */
